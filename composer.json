@@ -18,5 +18,9 @@
   "require-dev": {
     "orchestra/testbench": "^8.0"
   },
-  "autoload-dev": {}
+  "autoload-dev": {
+    "psr-4": {
+      "Rschoonheim\\LaravelSubdomains\\Tests\\": "testing/"
+    }
+  }
 }
