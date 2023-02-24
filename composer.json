@@ -10,12 +10,13 @@
     }
   ],
   "minimum-stability": "stable",
-  "require": {},
   "autoload": {
     "psr-4": {
       "Rschoonheim\\LaravelSubdomains\\": "src/"
     }
   },
-  "require-dev": {},
+  "require-dev": {
+    "orchestra/testbench": "^8.0"
+  },
   "autoload-dev": {}
 }
