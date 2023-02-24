@@ -1,0 +1,21 @@
+{
+  "name": "rschoonheim/laravel-subdomains",
+  "description": "A Package for Laravel that improves the sub domain support.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Romano Schoonheim",
+      "email": "romano@atmosphere.sh"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Rschoonheim\\LaravelSubdomains\\": "src/"
+    }
+  },
+  "require-dev": {},
+  "autoload-dev": {}
+}
